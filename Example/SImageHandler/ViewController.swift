@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import SImageHandler
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var myImageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        myImageView.applyBorder(color: .green, width: 5.0)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

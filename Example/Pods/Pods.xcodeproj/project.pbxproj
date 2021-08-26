@@ -16,7 +16,7 @@
 		899B1977E182AE7B2FFD4274DC95BB75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		90384D74EDEAD8518B96EE7AA600C917 /* Pods-SImageHandler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8DF7927235958985D4D75E38FAB6A3 /* Pods-SImageHandler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D93B260A920E317EB9D8BDED8E49947D /* Pods-SImageHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C108ADF1F85093BEB25DAB6D0B1ADD /* Pods-SImageHandler_Example-dummy.m */; };
-		F0BE15395BCF1FEFB857E747EAF9C88B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B11CEA643145AA097B07492FCEF48 /* ReplaceMe.swift */; };
+		F0BE15395BCF1FEFB857E747EAF9C88B /* SImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B11CEA643145AA097B07492FCEF48 /* SImageHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		1137E2AF43A850535096A0BEAF8DEEE3 /* SImageHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SImageHandler-umbrella.h"; sourceTree = "<group>"; };
 		1CAD75901ADC6D1D9672A47F23879525 /* Pods-SImageHandler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SImageHandler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		232F5CCC74643D16AC8FAD27330AD65E /* SImageHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SImageHandler-dummy.m"; sourceTree = "<group>"; };
-		38509C79813E084CE791FEF6F6C1C04B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		38F249F50064C23D16DD5D4CB1FAC268 /* SImageHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SImageHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38509C79813E084CE791FEF6F6C1C04B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		38F249F50064C23D16DD5D4CB1FAC268 /* SImageHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SImageHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40CC13FF0C5C86296CC9872C538370AF /* Pods-SImageHandler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SImageHandler_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4BB1B704A46ED7395DABD9C020456D9D /* SImageHandler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SImageHandler-Info.plist"; sourceTree = "<group>"; };
 		4D5FFD15BB93AE6A336CD66CA1D2BED2 /* Pods-SImageHandler_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SImageHandler_Example-Info.plist"; sourceTree = "<group>"; };
@@ -51,23 +51,23 @@
 		558B21DEDE649D7F94ED51E68D3F602F /* SImageHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SImageHandler.modulemap; sourceTree = "<group>"; };
 		70FDDB822EEB936278E955E5524A04BF /* Pods-SImageHandler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SImageHandler_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		775B11CEA643145AA097B07492FCEF48 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SImageHandler/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		86AC2A4521CBEA7247BC794CEA72A2E3 /* Pods_SImageHandler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SImageHandler_Tests.framework; path = "Pods-SImageHandler_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775B11CEA643145AA097B07492FCEF48 /* SImageHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SImageHandler.swift; path = SImageHandler/Classes/SImageHandler.swift; sourceTree = "<group>"; };
+		86AC2A4521CBEA7247BC794CEA72A2E3 /* Pods_SImageHandler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SImageHandler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7A0DA4B2DFADCD864698E404E69302 /* Pods-SImageHandler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SImageHandler_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		90936B125BCCAE49E1BA4EEA8E7652D0 /* Pods-SImageHandler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SImageHandler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		94207712796063696EC17BF156C6F958 /* Pods-SImageHandler_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SImageHandler_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FDF715C57DD31406532F6DB812110C2 /* Pods-SImageHandler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SImageHandler_Tests-dummy.m"; sourceTree = "<group>"; };
 		A42C1B59D35C700458F84044343E1A66 /* Pods-SImageHandler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SImageHandler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A591CD81DBBDD9B77192EC4D3EBEDA24 /* Pods-SImageHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SImageHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0A665CC62F660BEE843DC5A8FE345CF /* Pods-SImageHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SImageHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B73C3445E0E3BF31F1D953B3CC4D6D4C /* SImageHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SImageHandler-prefix.pch"; sourceTree = "<group>"; };
 		CCCCB4A9478F227F6E07ADBDB0C33B0E /* Pods-SImageHandler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SImageHandler_Example.modulemap"; sourceTree = "<group>"; };
-		D4086479AA82F528099817F6AEC2D5E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D4086479AA82F528099817F6AEC2D5E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D64776CAC639AE272FFA06BDBD5AADB4 /* SImageHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SImageHandler.release.xcconfig; sourceTree = "<group>"; };
 		DBDD0623AF9F84178E801D8D7191A42A /* Pods-SImageHandler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SImageHandler_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E1720B412791F55DF21582C0C89ECE63 /* Pods_SImageHandler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SImageHandler_Example.framework; path = "Pods-SImageHandler_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3D93F522019882437336C87F28D989F /* SImageHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SImageHandler.framework; path = SImageHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1720B412791F55DF21582C0C89ECE63 /* Pods_SImageHandler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SImageHandler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D93F522019882437336C87F28D989F /* SImageHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SImageHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8710B24E4481310F4363BBB16069B58 /* Pods-SImageHandler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SImageHandler_Tests.modulemap"; sourceTree = "<group>"; };
 		EA8DF7927235958985D4D75E38FAB6A3 /* Pods-SImageHandler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SImageHandler_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,7 +151,7 @@
 		A4BE9F0F5B92BE75977F544FB2AE5CEF /* SImageHandler */ = {
 			isa = PBXGroup;
 			children = (
-				775B11CEA643145AA097B07492FCEF48 /* ReplaceMe.swift */,
+				775B11CEA643145AA097B07492FCEF48 /* SImageHandler.swift */,
 				C75FC1B7B7F09612F33515FF2B9A13A9 /* Pod */,
 				13EB3398CB4C10045A9547D8AA53BED7 /* Support Files */,
 			);
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0BE15395BCF1FEFB857E747EAF9C88B /* ReplaceMe.swift in Sources */,
+				F0BE15395BCF1FEFB857E747EAF9C88B /* SImageHandler.swift in Sources */,
 				699C6B492D9E2D05395AE0A46034D637 /* SImageHandler-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,8 +686,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
