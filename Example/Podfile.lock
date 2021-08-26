@@ -1,0 +1,16 @@
+PODS:
+  - SImageHandler (0.1.0)
+
+DEPENDENCIES:
+  - SImageHandler (from `../`)
+
+EXTERNAL SOURCES:
+  SImageHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SImageHandler: f042febf6380cf871355810a3ca347b3e89e6ea9
+
+PODFILE CHECKSUM: c2a5000321abd7886c0167d97623d52ef4ffa5b0
+
+COCOAPODS: 1.10.1

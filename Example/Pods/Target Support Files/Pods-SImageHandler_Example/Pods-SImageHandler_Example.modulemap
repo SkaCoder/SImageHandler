@@ -1,0 +1,6 @@
+framework module Pods_SImageHandler_Example {
+  umbrella header "Pods-SImageHandler_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

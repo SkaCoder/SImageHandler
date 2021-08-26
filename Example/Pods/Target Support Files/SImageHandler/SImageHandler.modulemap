@@ -1,0 +1,6 @@
+framework module SImageHandler {
+  umbrella header "SImageHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}
