@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'SImageHandler'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SImageHandler.'
-
+  s.summary          = 'This is demo libaray for pods demo'
+  s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  'A short description of SImageHandler.'
+  'This is demo libaray for pods demo.The main aim here to learn how to create own pod in swift'
                        DESC
 
   s.homepage         = 'https://github.com/SkaCoder/SImageHandler'
