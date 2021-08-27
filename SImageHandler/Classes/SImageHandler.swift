@@ -7,4 +7,10 @@ extension UIImageView {
         layer.borderWidth = width
         clipsToBounds = true
     }
+    
+    public func corner(corner: CGFloat) {
+        
+        layer.cornerRadius = corner
+        clipsToBounds = true
+    }
 }

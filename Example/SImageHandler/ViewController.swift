@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         myImageView.applyBorder(color: .green, width: 5.0)
         // Do any additional setup after loading the view, typically from a nib.
+        myImageView.corner(corner: 20.0)
     }
 
     override func didReceiveMemoryWarning() {
